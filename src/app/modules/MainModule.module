@@ -5,22 +5,12 @@
     "version": "1.0.0.0"
   },
   "components": {
-    "ini1": {
+    "ini4": {
       "type": "script\\storage\\IniStorage",
-      "x": 96,
+      "x": 288,
       "y": 32,
       "props": {
-        "path": "tasks1.ini",
-        "autoSave": "1",
-        "multiLineValues": "1"
-      }
-    },
-    "ini2": {
-      "type": "script\\storage\\IniStorage",
-      "x": 160,
-      "y": 32,
-      "props": {
-        "path": "tasks2.ini",
+        "path": "tasks4.ini",
         "autoSave": "1",
         "multiLineValues": "1"
       }
@@ -35,12 +25,22 @@
         "multiLineValues": "1"
       }
     },
-    "ini4": {
+    "ini2": {
       "type": "script\\storage\\IniStorage",
-      "x": 288,
+      "x": 160,
       "y": 32,
       "props": {
-        "path": "tasks4.ini",
+        "path": "tasks2.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    },
+    "ini1": {
+      "type": "script\\storage\\IniStorage",
+      "x": 96,
+      "y": 32,
+      "props": {
+        "path": "tasks1.ini",
         "autoSave": "1",
         "multiLineValues": "1"
       }
