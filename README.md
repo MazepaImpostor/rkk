@@ -1,5 +1,5 @@
 # RKK Planner
 
-> Планировщик распорядка дна, написанный на DevelNext
+> Планировщик распорядка дня, написанный на DevelNext
 
 No description
