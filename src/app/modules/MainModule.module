@@ -1,0 +1,59 @@
+{
+  "props": {
+    "description": "RKKPlanner",
+    "author": "Ryzhenkov Y",
+    "version": "1.0.0.0"
+  },
+  "components": {
+    "ini4": {
+      "type": "script\\storage\\IniStorage",
+      "x": 288,
+      "y": 32,
+      "props": {
+        "path": "tasks4.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    },
+    "ini3": {
+      "type": "script\\storage\\IniStorage",
+      "x": 224,
+      "y": 32,
+      "props": {
+        "path": "tasks3.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    },
+    "ini2": {
+      "type": "script\\storage\\IniStorage",
+      "x": 160,
+      "y": 32,
+      "props": {
+        "path": "tasks2.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    },
+    "ini1": {
+      "type": "script\\storage\\IniStorage",
+      "x": 96,
+      "y": 32,
+      "props": {
+        "path": "tasks1.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    },
+    "cfg": {
+      "type": "script\\storage\\IniStorage",
+      "x": 32,
+      "y": 32,
+      "props": {
+        "path": "config.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    }
+  }
+}

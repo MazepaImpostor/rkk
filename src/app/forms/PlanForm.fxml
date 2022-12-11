@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632" prefWidth="512" styleClass="">
+  <children>
+    <Data cursor="DEFAULT" enabled="1" graphic="" id="data-label" visible="1"/>
+    <Panel AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" backgroundColor="#4e4a76" borderColor="#ffffff" borderRadius="0" borderStyle="NONE" borderWidth="0" focusTraversable="false" id="navPanel" layoutX="0" layoutY="568" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="64" prefWidth="512" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <FlatButton AnchorPane.bottomAnchor="8" alignment="CENTER" color="#4e4a76" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4e4a76" id="planBtn" layoutX="8" layoutY="8" prefHeight="48" prefWidth="160" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="15"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/plan_icon.png" id="data-planBtn" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="15"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-navPanel" visible="1"/>
+    <FlatButton AnchorPane.bottomAnchor="8" alignment="CENTER" color="#3a3667" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4e4a76" id="templatesBtn" layoutX="176" layoutY="576" prefHeight="48" prefWidth="160" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" graphic=".data/img/templates_icon.png" id="data-templatesBtn" visible="1"/>
+    <FlatButton AnchorPane.bottomAnchor="8" alignment="CENTER" color="#3a3667" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4e4a76" id="statisticBtn" layoutX="344" layoutY="576" prefHeight="48" prefWidth="160" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" graphic=".data/img/diagram_icon.png" id="data-statisticBtn" visible="1"/>
+    <Panel AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" backgroundColor="#4e4a76" borderColor="#ffffff" borderRadius="0" borderStyle="NONE" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="56" prefWidth="512" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="15"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <LabelEx AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="8" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="0" layoutY="0" prefHeight="56" prefWidth="504" styleClass="label " text="Расписание" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI Semibold" size="24"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" graphic=".data/img/rkk_logo_icon.png" id="data-mainBtn" visible="1"/>
+    <FlatButton alignment="CENTER" color="#4e4a76" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#3a3667" id="mainBtn" layoutX="0" layoutY="0" prefHeight="56" prefWidth="56" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" graphic="" id="data-addButton" visible="1"/>
+    <FlatButton AnchorPane.bottomAnchor="72" AnchorPane.leftAnchor="8" alignment="CENTER" color="#4e4a76" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#5e5a8f" id="remButton" layoutX="8" layoutY="512" prefHeight="48" prefWidth="160" styleClass="x-flat-button " text="Удалить" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="18"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" graphic="" id="data-remButton" visible="1"/>
+    <FlatButton AnchorPane.bottomAnchor="72" AnchorPane.leftAnchor="176" AnchorPane.rightAnchor="8" alignment="CENTER" color="#4e4a76" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#5e5a8f" id="addButton" layoutX="176" layoutY="512" prefHeight="48" prefWidth="328" styleClass="x-flat-button " text="Добавить задачу" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="18"/>
+      </font>
+    </FlatButton>
+    <TableView AnchorPane.bottomAnchor="128" AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="8" AnchorPane.topAnchor="64" editable="false" fixedCellSize="-1" focusTraversable="true" id="table" layoutX="8" layoutY="64" prefHeight="440" prefWidth="752" styleClass="table-view " tableMenuButtonVisible="false">
+      <placeholder>
+        <Label/>
+      </placeholder>
+      <columns>
+        <TableColumn id="time" maxWidth="5000" minWidth="10" prefWidth="64" resizable="false" sortable="false" style="-fx-alignment: center-left; " text="Время" visible="true"/>
+        <TableColumn id="name" maxWidth="5000" minWidth="10" prefWidth="286" resizable="false" sortable="false" style="-fx-alignment: center-left; " text="Задача" visible="true"/>
+        <TableColumn id="value" maxWidth="5000" minWidth="10" prefWidth="126" resizable="false" sortable="false" style="-fx-alignment: center-left; " text="Длительность" visible="true"/>
+      </columns>
+    </TableView>
+    <Data cursor="DEFAULT" enabled="1" id="data-table" visible="1"/>
+  </children>
+</AnchorPane>

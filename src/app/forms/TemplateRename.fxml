@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216" prefWidth="512" styleClass="">
+  <children>
+    <Data cursor="DEFAULT" enabled="1" graphic="" id="data-label" visible="1"/>
+    <Panel AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" backgroundColor="#4e4a76" borderColor="#ffffff" borderRadius="0" borderStyle="NONE" borderWidth="0" focusTraversable="false" id="navPanel" layoutX="0" layoutY="152" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="64" prefWidth="512" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <FlatButton AnchorPane.bottomAnchor="8" alignment="CENTER" color="#3a3667" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4e4a76" id="cancelBtn" layoutX="8" layoutY="8" prefHeight="48" prefWidth="160" styleClass="x-flat-button " text="Отмена" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Segoe UI" size="18"/>
+          </font>
+        </FlatButton>
+        <Data cursor="HAND" enabled="1" graphic="" id="data-cancelBtn" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="15"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-navPanel" visible="1"/>
+    <FlatButton AnchorPane.bottomAnchor="8" AnchorPane.leftAnchor="176" AnchorPane.rightAnchor="8" alignment="CENTER" color="#3a3667" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4e4a76" id="renameBtn" layoutX="176" layoutY="160" prefHeight="48" prefWidth="328" styleClass="x-flat-button " text="Переименовать" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="18"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" graphic="" id="data-renameBtn" visible="1"/>
+    <Panel AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" backgroundColor="#4e4a76" borderColor="#ffffff" borderRadius="0" borderStyle="NONE" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="56" prefWidth="512" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="15"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <LabelEx AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="8" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="0" layoutY="0" prefHeight="56" prefWidth="504" styleClass="label " text="Переименовать шаблон" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI Semibold" size="24"/>
+      </font>
+    </LabelEx>
+    <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="80" prefHeight="48" prefWidth="128" styleClass="label " text="Имя" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <TextField AnchorPane.leftAnchor="160" AnchorPane.rightAnchor="24" alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="nameEdit" layoutX="160" layoutY="80" prefColumnCount="12" prefHeight="48" prefWidth="328" promptText="Например: &quot;Мой лучший день&quot;" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Segoe UI" size="18"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-nameEdit" visible="1"/>
+  </children>
+</AnchorPane>
