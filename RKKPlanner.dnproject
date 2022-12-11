@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Евгений" authorOS="Windows 10" createdAt="1669090399293" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="RKKPlanner" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1669569747540">
+<project author="Евгений" authorOS="Windows 10" createdAt="1669090399293" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="RKKPlanner" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1670776276080">
   <tree>
     <expanded>
     <path src=""/>
