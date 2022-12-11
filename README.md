@@ -1,3 +1,5 @@
-# rkk
+# RKK Planner
 
-Public rkk projects repository
+> Планировщик распорядка дна, написанный на DevelNext
+
+No description
