@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="Евгений" authorOS="Windows 10" createdAt="1669090399293" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="RKKPlanner" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1669569747540">
+  <tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/.theme"/>
+      <path src="/src/app"/>
+      <path src="/src/app/forms"/>
+      <path src="/src/app/modules"/>
+      <path src="/src/chart"/>
+    </expanded>
+  </tree>
+  <openedFiles>
+  <file src="RKKPlanner.dnproject"/>
+    <file src="src/app/modules/MainModule.php"/>
+    <file src="src/app/forms/PlanForm.php"/>
+    <file selected="1" src="src/app/forms/NewTask.php"/>
+    <file src="src/app/forms/TemplatesForm.php"/>
+    <file src="src/app/forms/TemplateRename.php"/>
+    <file src="src/app/forms/MainForm.php"/>
+  </openedFiles>
+  <files/>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+  </behaviours>
+</project>
